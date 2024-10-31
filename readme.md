@@ -223,7 +223,7 @@ Example:
       thislist = ["apple", "banana", "cherry"]
       thislist.remove("banana")
       print(thislist)
-      Rub Result: ['apple', 'cherry']
+      Run Result: ['apple', 'cherry']
 
 ## 5.1.9 Remove Specified Index
 
@@ -418,29 +418,29 @@ Example:
 
 * Parent or Base Class: First, we'll create a base class called Animal. This class will have common attributes and methods for all animals.
 
-class Animal:
-    def __init__(self, name, species):
-        self.name = name
-        self.species = species
+      class Animal:
+      def __init__(self, name, species):
+          self.name = name
+          self.species = species
 
-    def speak(self):
-        return f"{self.name} makes a sound."
+      def speak(self):
+          return f"{self.name} makes a sound."
 
-    def info(self):
-        return f"{self.name} is a {self.species}."
+      def info(self):
+          return f"{self.name} is a {self.species}."
 
 * Child Class: ext, we'll create a Dog class that inherits from the Animal class. The Dog class will have its own method and override the speak method.
 
-class Dog(Animal):
-    def __init__(self, name, breed):
-        super().__init__(name, species="Dog")  # Call the base class constructor
-        self.breed = breed
+        class Dog(Animal):
+        def __init__(self, name, breed):
+            super().__init__(name, species="Dog")  # Call the base class constructor
+            self.breed = breed
 
-    def speak(self):
-        return f"{self.name} barks."
+        def speak(self):
+            return f"{self.name} barks."
 
-    def info(self):
-        return f"{self.name} is a {self.breed} dog."
+        def info(self):
+            return f"{self.name} is a {self.breed} dog."
 ## 8.3 Polymorphism
 
 * The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes.
