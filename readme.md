@@ -90,7 +90,7 @@ Naming Rule :
 * Can contain letter,digit,underscore.
 * Case-sensitive : e.g. age is different from Age
 
-  ![alt text](image-3.png)
+  ![alt text](/images/image-3.png)
 
 
 
@@ -114,12 +114,13 @@ For Multiple line comment we use (***Your Comment *** )
 ## 4.1.1 Arithmatic Operator:
 
 
+![alt text](/images/image-1.png)
 
 
 
 ## 4.1.2 Assignment Operator:
 
-![alt text](image-4.png)
+![alt text](/images/image-4.png)
 
 ## 4.1.3 Compare Operator:
 
@@ -260,7 +261,7 @@ Example:
           cherry
 
 ## 5.1.12 List Methods
-![alt text](image.png)
+![alt text](/images/image.png)
 
 
 ## 5.2.1 Access the element of array
@@ -497,7 +498,7 @@ These exceptions can be handled using the try statement:
 ## 9.1 Opening File modes 
 
 
-![alt text](image-1.png)
+![alt text](/images/image-1a.png)
 
 ## 9.2 File Handling Process
 

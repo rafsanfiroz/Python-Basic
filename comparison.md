@@ -48,7 +48,7 @@ Method overriding is an object-oriented programming technique that lets us chang
 
 # Comparison using table :
 
-![alt text](image-6.png)
+![alt text](/images/table.png)
 
 
 
