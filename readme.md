@@ -143,9 +143,8 @@ Arrays are used to store multiple values in one single variable:
 
 Example :
 
-my_list = [1, 2, 3, 4, 5] 
-
-mixed_list = [1, "two", 3.0, True]
+    my_list = [1, 2, 3, 4, 5] 
+    mixed_list = [1, "two", 3.0, True]
 
 ## 5.1.2 Accessing List Elements
 
@@ -156,11 +155,9 @@ mixed_list = [1, "two", 3.0, True]
 Example:
 Print the first item of the list:
 
-thislist = ["apple", "banana", "cherry"]
-
-print(thislist[0])
-
-Run Result: apple
+    thislist = ["apple", "banana", "cherry"]
+    print(thislist[0])
+    Run Result: apple
 
 ## 5.1.3 Negative Indexing
 
@@ -169,11 +166,9 @@ Run Result: apple
 
 Example:
 
-thislist = ["apple", "banana", "cherry"]
-
-print(thislist[-1])
-
-Run Result : cherry
+    thislist = ["apple", "banana", "cherry"]
+    print(thislist[-1])
+    Run Result : cherry
 
 ## 5.1.4 Range of Indexes
 
@@ -181,23 +176,18 @@ Run Result : cherry
 
 Example:
 
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-
-print(thislist[2:5])
-
-Run Result: ['cherry', 'orange', 'kiwi']
+    thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+    print(thislist[2:5])
+    Run Result: ['cherry', 'orange', 'kiwi']
 
 ## 5.1.5 Change Item Value
 
 Example:
 
-thislist = ["apple", "banana", "cherry"]
-
-thislist[1] = "blackcurrant"
-
-print(thislist)
-
-Run Result :  ['apple', 'blackcurrant', 'cherry']
+    thislist = ["apple", "banana", "cherry"]
+    thislist[1] = "blackcurrant"
+    print(thislist)
+    Run Result :  ['apple', 'blackcurrant', 'cherry']
 
 ## 5.1.6 Add Item List 
 
@@ -206,13 +196,10 @@ Run Result :  ['apple', 'blackcurrant', 'cherry']
 
 Example:
 
-thislist = ["apple", "banana", "cherry"]
-
-thislist.append("orange")
-
-print(thislist)
-
-Run Result: ['apple', 'banana', 'cherry', 'orange']
+    thislist = ["apple", "banana", "cherry"]
+    thislist.append("orange")
+    print(thislist)
+    Run Result: ['apple', 'banana', 'cherry', 'orange']
 
 ## 5.1.7 Insert Items
 
@@ -221,53 +208,41 @@ Run Result: ['apple', 'banana', 'cherry', 'orange']
 * The insert() method inserts an item at the specified index:
 
 Example:
-thislist = ["apple", "banana", "cherry"]
 
-thislist.insert(1, "orange")
-
-print(thislist)
-
-Run Result:
-
-['apple', 'orange', 'banana', 'cherry']
+    thislist = ["apple", "banana", "cherry"]
+    thislist.insert(1, "orange")
+    print(thislist)
+    Run Result:
+    ['apple', 'orange', 'banana', 'cherry']
 
 ## 5.1.8 Remove List Items
 
 * The remove() method removes the specified item.
 
-thislist = ["apple", "banana", "cherry"]
-
-thislist.remove("banana")
-
-print(thislist)
-
-Rub Result: ['apple', 'cherry']
+      thislist = ["apple", "banana", "cherry"]
+      thislist.remove("banana")
+      print(thislist)
+      Rub Result: ['apple', 'cherry']
 
 ## 5.1.9 Remove Specified Index
 
 * The pop() method removes the specified index.
 
-thislist = ["apple", "banana", "cherry"]
-
-thislist.pop(1)
-
-print(thislist)
-
-Run Result: ['apple', 'cherry']
+      thislist = ["apple", "banana", "cherry"]
+      thislist.pop(1)
+      print(thislist)
+      Run Result: ['apple', 'cherry']
 
 ## 5.1.10 Loop Through a List
 Example:
 
-thislist = ["apple", "banana", "cherry"]
-
-for x in thislist:
-
-  print(x)
-
-Run Result : 
-apple
-banana
-cherry
+    thislist = ["apple", "banana", "cherry"]
+    for x in thislist:
+      print(x)
+    Run Result : 
+    apple
+    banana
+    cherry
 
 ## 5.1.11 Loop Through the Index Numbers
 
@@ -276,35 +251,29 @@ cherry
 * Use the range() and len() functions to create a suitable iterable.
 Example:
 
-thislist = ["apple", "banana", "cherry"]
-
-for i in range(len(thislist)):
-
-  print(thislist[i])
-
-Run Result:
- apple
- banana
- cherry
+          thislist = ["apple", "banana", "cherry"]
+          for i in range(len(thislist)):
+            print(thislist[i])
+          Run Result:
+          apple
+          banana
+          cherry
 
 ## 5.1.12 List Methods
 ![alt text](image.png)
 
 
 ## 5.2.1 Access the element of array
-car1 = "Ford"
-
-car2 = "Volvo"
-
-car3 = "BMW"
-
-
-x = cars[0]
+    car1 = "Ford"
+    car2 = "Volvo"
+    car3 = "BMW"
+    x = cars[0]
 
 ## 5.2.2 The Length of an Array
 * Return the number of elements in the cars array:
 
-x = len(cars)
+    
+       x = len(cars)
 
 #Other Section are similar to list .
 
@@ -320,23 +289,16 @@ x = len(cars)
 
 Example :
 
-a = 200 
-
-b = 33
-
-if b > a:
-
-  print("b is greater than a")
-
-elif a == b:
- 
-  print("a and b are equal")
-else:
-
-  print("a is greater than b")
-
-Run Result:
-a is greater than b
+    a = 200 
+    b = 33
+    if b > a:
+      print("b is greater than a")
+    elif a == b:
+      print("a and b are equal")
+    else:
+      print("a is greater than b")
+    Run Result:
+    a is greater than b
 
 ## 6.2 Loop Statement
 
@@ -346,37 +308,29 @@ a is greater than b
 
 Example:
 
-i = 1 
-
-while i < 6:
-
-  print(i)
-
-  i += 1 
-  #Print i as long as i is less than 6:
-
-Run Result:
-1
-2
-3
-4
-5
+    i = 1 
+    while i < 6:
+      print(i)
+      i += 1 
+      #Print i as long as i is less than 6:
+    Run Result:
+    1
+    2
+    3
+    4
+    5
 
 ## Break Statement:
 With the break statement we can stop the loop even if the while condition is true:
 
 Example:
-i = 1
 
-while i < 6:
-
-  print(i)
-
-  if i == 3:
-
-    break
-
-  i += 1 # Exit the loop when i is 3:
+    i = 1
+    while i < 6:
+      print(i)
+      if i == 3:
+      break
+      i += 1 # Exit the loop when i is 3:
 
 ## 6.3 For Loop
 
@@ -384,28 +338,24 @@ while i < 6:
 
 Example:
 
-fruits = ["apple", "banana", "cherry"]
-for fruit in fruits:
-    print(fruit) 
-
-
-Run result:
-
-apple
-banana
-cherry
+    fruits = ["apple", "banana", "cherry"]
+    for fruit in fruits:
+        print(fruit) 
+    Run result:
+    apple
+    banana
+    cherry
 
 Using range() :
 
-for i in range(5):
-    print(i)
-    
-Run Result:    
-0
-1
-2
-3
-4
+    for i in range(5):
+        print(i)
+    Run Result:    
+    0
+    1
+    2
+    3
+    4
 
 # Chapter 7.0
 
@@ -417,9 +367,8 @@ Run Result:
 
 Example:
 
-def my_function():
-
-  print("Hello from a function")
+    def my_function():
+      print("Hello from a function")
 
 ### 7.1.2 Calling a Function
 
@@ -427,23 +376,17 @@ def my_function():
 
 Example :
 
-def my_function():
-
-  print("Hello from a function")
-
-my_function()
+    def my_function():
+      print("Hello from a function")
+    my_function()
 
 ## 7.1.3 Returning a value from function
 
-def add (a,b) :
-
- sum = a+b 
-
- return sum 
-
- result=add(10,20) #calling function & store it in result variable
-
- print(result)
+      def add (a,b) :
+      sum = a+b 
+      return sum 
+      result=add(10,20) #calling function & store it in result variable
+      print(result)
 
 
 ### Chapter 8.0
@@ -452,18 +395,17 @@ def add (a,b) :
 * Class name must start with capital letter
 * Create a class named MyClass, with a property named x:
 Example:
-class MyClass:
-  x = 5
+
+      class MyClass:
+        x = 5
 
 ## 8.1.2 Create Object
 
 * Create an object named p1, and print the value of x:
 
-p1 = MyClass()
-
-print(p1.x)
-
-Run Result: 5
+      p1 = MyClass()
+      print(p1.x)
+      Run result: 5
 
 ## 8.2 Inheritence
 
@@ -502,26 +444,33 @@ class Dog(Animal):
 
 * The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes.
 
-class Animal:
-    def speak(self):
-        raise NotImplementedError("Subclasses must implement this method.")
+        class Dog(): 
+            def animal_kingdom(self): 
+              print("Mammal") 
+            def legs(self):
+              print("Four") 
+        class Lizard(): 
+            def animal_kingdom(self): 
+              print("Mammal") 
+            def legs(self): 
+              print("Four") 
+        def function1(obj): 
+              obj.animal_kingdom() 
+              obj.legs()
+        obj_dog = Dog() 
+        obj_lizard = Lizard() 
+        function1(obj_dog) 
+        function1(obj_lizard)
+        Output
+        Mammal
+        Four
+        Mammal
+        Four
 
-class Dog(Animal):
-    def speak(self):
-        return "Woof!"
+Explanation:
+In the above example, the function, function1() takes in an object named obj, which in turn lets the functions call the methods, animal_kingdom() and legs() of both the classes, Dog and Lizard. To do this, we must create the instances of both classes.
 
-class Cat(Animal):
-    def speak(self):
-        return "Meow!"
 
- //Create instances of Dog and Cat
-
-animals = [Dog(), Cat()]
-
-// Using polymorphism
-
-for animal in animals:
-    print(animal.speak())
 
 ## 8.4 Exception Handling
 ## 8.4.1 Try and Catch
@@ -537,10 +486,11 @@ for animal in animals:
 When an error occurs, or exception as we call it, Python will normally stop and generate an error message.
 
 These exceptions can be handled using the try statement:
-try:
-    # Code that may cause an exception
-except ExceptionType:
-    # Code to handle the exception 
+
+    try:
+        # Code that may cause an exception
+    except ExceptionType:
+        # Code to handle the exception 
 
 # Chapter 9.0
 ## Flile Handling 
@@ -551,42 +501,18 @@ except ExceptionType:
 
 ## 9.2 File Handling Process
 
-import os
-
-#Check if the file exists
-if not os.path.exists('example.txt'):
-
-    #Create and write to the file
-
-    with open('example.txt', 'w') as file:
-
-        file.write("Hello, World!\n")
-
-        file.write("This is a second line.\n")
-
-
-// Read from the file
-
-with open('example.txt', 'r') as file:
-
-    content = file.readlines()
-
-    for line in content:
-
-        print(line.strip()) 
-
-         # Print each line without extra whitespace
-
-// Append to the file
-
-with open('example.txt', 'a') as file:
-
-    file.write("Appending a new line.\n")
-
-
-// Delete the file
-
-os.remove('example.txt')
+    import os
+    if not os.path.exists('example.txt'):  
+        with open('example.txt', 'w') as file: #Create and write to the file
+            file.write("Hello, World!\n")
+            file.write("This is a second line.\n")
+    with open('example.txt', 'r') as file: Read from the file
+        content = file.readlines()
+        for line in content:
+            print(line.strip())      
+    with open('example.txt', 'a') as file: #Append to the file
+        file.write("Appending a new line.\n")
+    os.remove('example.txt') #Delete the file
 
 
 
